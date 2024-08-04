@@ -25,22 +25,22 @@ public class TeatBean implements BeanNameAware, BeanFactoryAware, ApplicationCon
 
     @Override
     public void destroy() throws Exception {
-        System.out.println("bye");
+//        System.out.println("bye");
 
     }
 
     @PreDestroy
     public void customerDelete(){
-        System.out.println("Customer Delete");
+//        System.out.println("Customer Delete");
     }
 
     @Override
     public void afterPropertiesSet() throws Exception {
-        System.out.println("");
+//        System.out.println("");
     }
 
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-        System.out.println("ApplicationContext"+ applicationContext);
+//        System.out.println("ApplicationContext"+ applicationContext);
     }
 }
